@@ -33,7 +33,7 @@ class TagsMain extends PluginBase {
 		$this->cfg = new Config($this->getDataFolder() . "config.yml", Config::YAML);
 		$this->cfg = $this->cfg->getAll();
 		if(version_compare(self::VERSION, $this->cfg["version"], ">")){
-			$this->getLogger()->error("Config is outdated! Please delete your current config and restart the server...");
+			$this->getLogger()->error("Your config file is outdated! Please delete your current config file and restart the server...");
 			$this->getServer()->getPluginManager()->disablePlugin($this);
 		}
 		$this->tagsDB = new TagsDB($this);

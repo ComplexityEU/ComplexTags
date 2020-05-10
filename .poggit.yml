@@ -5,4 +5,9 @@ branches:
 projects:
   ComplexTags:
     path: ""
+    libs:
+    - src: BreathTakinglyBinary/libDynamicForms/libDynamicForms
+    version: ^1.1.2
+    lint:
+      phpstan: false
 ...

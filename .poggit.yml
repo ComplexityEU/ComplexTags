@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/DuoIncure/ComplexTags
+build-by-default: true
+branches:
+- master
+projects:
+  ComplexTags:
+    path: ""
+...

@@ -57,7 +57,7 @@ class TagCommand extends PluginCommand {
 					$sender->sendMessage(TF::RED . "You need to provide a valid player name!");
 					return;
 				} elseif(!isset($args[2])){
-					$sender->sendMessage("You need to provide a tag name!" . TF::EOL . "Valid tag names: $validTags");
+					$sender->sendMessage(TF::RED . "You need to provide a tag name!" . TF::EOL . "Valid tag names: $validTags");
 					return;
 				} elseif(!$this->plugin->getTagsDB()->isValidTag($args[2])){
 					$sender->sendMessage(TF::RED . "You must provide a valid tag name!");
@@ -77,7 +77,7 @@ class TagCommand extends PluginCommand {
 					$sender->sendMessage(TF::RED . "You need to provide a valid player!");
 					return;
 				} elseif(!isset($args[2])){
-					$sender->sendMessage("You need to provide a tag name!" . TF::EOL . "Valid tag names: $validTags");
+					$sender->sendMessage(TF::RED . "You need to provide a tag name!" . TF::EOL . "Valid tag names: $validTags");
 					return;
 				} elseif(!$this->plugin->getTagsDB()->isValidTag($args[2])){
 					$sender->sendMessage(TF::RED . "You must provide a valid tag name!");

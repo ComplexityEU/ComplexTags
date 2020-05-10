@@ -1,0 +1,16 @@
+---
+#CONFIG VERSION
+#DO NOT CHANGE THIS VALUE
+version: "1"
+
+#Title of the Tags form.
+form-title: "&l&6ComplexTags"
+
+tags:
+  #Name of tag without colours.
+  testTag1:
+   #Tag name with colours. Use & for colour.
+    name: "&6TestTag1"
+  testTag2:
+    name: "&bTestTag2"
+...

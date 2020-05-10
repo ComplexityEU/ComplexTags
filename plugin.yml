@@ -1,0 +1,7 @@
+---
+name: ComplexTags
+main: DuoIncure\ComplexTags\TagsMain
+version: 1.0.0
+api: 3.12.0
+description: A fun tags plugin for PocketMine-MP. This is just for fun!
+...

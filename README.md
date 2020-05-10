@@ -22,3 +22,6 @@ Tags can only be given via command. To give a tag, you run:
 ## Removing Tags
 Removing tags is the exact same as giving them, but you change `give` to `remove`. So the command looks like this:
 `/tag remove <playerName> <tagNameNoColour>`
+
+## Viewing Tags
+To view your tags, you just run the command `/tags`!

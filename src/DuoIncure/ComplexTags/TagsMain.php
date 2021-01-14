@@ -46,7 +46,8 @@ class TagsMain extends PluginBase {
 
 	public function getTagsDB(){
 		if(!$this->tagsDB instanceof TagsDB){
-			throw new RuntimeException("tagsDB was not an instanceof TagsDB");
+			$this->getLogger()->error("tagsDB was not an instance of TagsDB");
+			$this->getServer()->getPluginManager()->disablePlugin($this);
 		}
 		return $this->tagsDB;
 	}
